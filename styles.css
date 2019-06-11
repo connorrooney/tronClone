@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+body {
+    background: #07091c;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.playerOne hr {
+    background-color: rgb(198, 54, 151);
+    border: none;
+    height: 3px;
+}
+
+.playerTwo hr {
+    background-color: rgb(87, 162, 218);
+    border: none;
+    height: 3px;
+}
