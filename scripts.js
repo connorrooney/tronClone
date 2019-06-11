@@ -29,7 +29,7 @@ function setup() {
     playerTwo.speedX = 0;
     playerOneMovement = {left: false, right: true, up: true, down: true}
     playerTwoMovement = {left: true, right: false, up: true, down: true}
-    frameRate(30);
+    frameRate(60);
 }
 
 function draw() {
