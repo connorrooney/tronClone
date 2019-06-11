@@ -27,6 +27,8 @@ function setup() {
     playerOne.speedX = 0;
     playerTwo = new Snake(1200, 350, '#57A2DA');
     playerTwo.speedX = 0;
+    playerOneMovement = {left: false, right: true, up: true, down: true}
+    playerTwoMovement = {left: false, right: true, up: true, down: true}
     frameRate(30);
 }
 
