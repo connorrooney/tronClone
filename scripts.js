@@ -23,12 +23,12 @@ let scl = 10;
 
 function setup() {
     createCanvas(1200, 700);
-    playerOne = new Snake(-20, 350, '#C63697');
+    playerOne = new bike(-20, 350, '#C63697');
     playerOne.speedX = 0;
-    playerTwo = new Snake(1200, 350, '#57A2DA');
+    playerTwo = new bike(1200, 350, '#57A2DA');
     playerTwo.speedX = 0;
     playerOneMovement = {left: false, right: true, up: true, down: true}
-    playerTwoMovement = {left: false, right: true, up: true, down: true}
+    playerTwoMovement = {left: true, right: false, up: true, down: true}
     frameRate(30);
 }
 
@@ -49,7 +49,7 @@ function draw() {
 }
 
 
-function Snake(x, y, color) {
+function bike(x, y, color) {
     this.x = x;
     this.y = y;
     this.speedX = 0;
